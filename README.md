@@ -2,7 +2,7 @@
 
 Nightvision uses only green.
 
-# Features
+## Features
 
 * Light and dark mode
 * Soft, medium, and hard contrast
@@ -12,14 +12,14 @@ Nightvision uses only green.
 * Palette is generated, ensuring colors are correct
 * Fully written in Lua
 
-# Screenshots
+## Screenshots
 
-# Light and Dark Mode
+## Light and Dark Mode
 
-# Contrast
+## Contrast
 
-# Other Features
+## Other Features
 
-# Installation
+## Installation
 
-# Other Text Editors
+## Other Text Editors
