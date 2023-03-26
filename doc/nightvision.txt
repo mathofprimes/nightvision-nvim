@@ -1,0 +1,46 @@
+*nightvision* nightvision: An easily configurable colorscheme for Vim using just 
+green.
+
+===========================================================================
+Introduction                                       *nightvision-introduction*
+===========================================================================
+
+nightvision consists entirely of shades of green — that is, green is always the 
+highest value in the RGB of any color. There are 9 different colors for syntax, 
+and 4 light colors and 4 dark colors for UI elements and text. Each shade has 
+one of the assigned names — pure, gray, jade, lime, pear, drab, aqua, sage, and 
+teal — which can be used to change the appearance of the colorscheme.  
+
+===========================================================================
+Setting nightvision                                  *nightvision-backgrounds*
+===========================================================================
+Each assigned color name can be used to set the background for nightvision
+in either light or dark mode. For example, to have a jade background in
+dark mode and a drab background in light mode, set the following variables
+in your .vimrc file:
+
+vim.cmd[[ let g:nv_dark = 'jade' ]]
+vim.cmd[[ let g:nv_light = 'drab' ]]
+
+This won't just change the backgrounds for each mode, it will also change 
+dark mode to use drab for text and UI elements, as well as change light mode 
+to use jade for text and UI elements. By default, each background is pure.
+
+===========================================================================
+Setting Contrast                                       *nightvision-contrast*
+===========================================================================
+
+There are soft, medium, and hard settings to control contrast. To set any
+of these, add
+
+vim.cmd[[ let g:nv_contrast = 'soft' ]]
+vim.cmd[[ let g:nv_contrast = 'medium' ]]
+vim.cmd[[ let g:nv_contrast = 'hard' ]]
+
+Medium offers an even contrast that should be pleasant to most users, whereas 
+soft darkens text and lightens background (in dark mode), or darkens background 
+and lightens text (in light mode), to create less contrast, and hard does the 
+opposite to achieve greater contrast. Contrast between between highlight groups
+and UI elements (comments, for example, are darker than variable names), is 
+decreased if soft contrast is set, and increased if hard contrast is set. Medium 
+is the default contrast.
