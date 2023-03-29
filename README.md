@@ -14,6 +14,18 @@ Nightvision uses only green.
 
 ## Screenshots
 
+![Aqua Jade Soft](https://user-images.githubusercontent.com/74194607/228675813-153ba27c-90c6-4a21-8880-2323ce00cbca.png)
+
+> Soft contrast with sage for dark mode and jade for light mode.
+
+![Pure Pure Medium](https://user-images.githubusercontent.com/74194607/228674657-704c4b85-2a27-4cdc-b4fc-69e714d18a51.png)
+
+> Medium contrast with pure for dark mode and pure for light mode. This is the default.
+
+![Gray Drab Hard](https://user-images.githubusercontent.com/74194607/228673474-9fe3eb8c-1939-4c18-ac48-009c2419ad98.png)
+
+> Hard contrast with gray for dark mode and drab for light mode.
+
 ## Dark and Light Mode Backgrounds
 
 The background color in dark mode can be set by specifying a color,
