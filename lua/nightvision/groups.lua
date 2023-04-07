@@ -72,50 +72,50 @@ function M.groups()
         -- Highlighting Groups. See :h hi-groups.
 
         -- Modes.
-        Normal = {fg = palette.fg0, bg = palette.bg0},
-        Terminal = {fg = palette.fg0, bg = palette.bg0},
-        Visual = {bg = palette.bg2},
+        Normal    = {fg = palette.fg0, bg = palette.bg0},
+        Terminal  = {fg = palette.fg0, bg = palette.bg0},
+        Visual    = {bg = palette.bg2},
         VisualNos = {bg = palette.bg2},
 
         -- Cursors.
-        Cursor = {reverse = true},            
-        lCursor = {reverse = true},           
-        CursorIM = {reverse = true},          
-        CursorColumn = {bg = palette.bg1},            
-        CursorLine = {bg = palette.bg1},              
+        Cursor         = {reverse = true},            
+        lCursor        = {reverse = true},           
+        CursorIM       = {reverse = true},          
+        CursorColumn   = {bg = palette.bg1},            
+        CursorLine     = {bg = palette.bg1},              
         CursorLineFold = {fg = palette.fg0, bg = palette.bg0},
-        CursorLineNr = {fg = palette.fg3, bg = palette.bg0},  
+        CursorLineNr   = {fg = palette.fg3, bg = palette.bg0},  
         CursorLineSign = {fg = palette.fg0, bg = palette.bg0},
 
         -- Columns, lines.
-        ColorColumn = {bg = palette.bg1},          
-        EndOfBuffer = {fg = palette.fg0, bg = palette.bg0}, 
-        LineNr = {fg = palette.fg0, bg = palette.bg1},
-        LineNrAbove = {fg = palette.gray,},
-        LineNrBelow = {fg = palette.gray},
-        SignColumn = {fg = palette.fg0},
-        VertSplit = {fg = palette.fg0}, 
+        ColorColumn  = {bg = palette.bg1},          
+        EndOfBuffer  = {fg = palette.fg0, bg = palette.bg0}, 
+        LineNr       = {fg = palette.fg0, bg = palette.bg1},
+        LineNrAbove  = {fg = palette.gray,},
+        LineNrBelow  = {fg = palette.gray},
+        SignColumn   = {fg = palette.fg0},
+        VertSplit    = {fg = palette.fg0}, 
 
         -- Messages.
-        ErrorMsg = {bold = true, fg = palette.pear},
-        ModeMsg = {bold = true, fg = palette.teal},
-        MoreMsg = {bold = true, fg = palette.lime}, 
+        ErrorMsg   = {bold = true, fg = palette.teal},
+        ModeMsg    = {bold = true, fg = palette.lime},
+        MoreMsg    = {bold = true, fg = palette.lime}, 
         WarningMsg = {bold = true, fg = palette.pear},
 
         -- Popup menu.
-        Pmenu = {bg = palette.bg3},         
-        PmenuSbar = {fg = palette.fg0},             
-        PmenuSel = {fg = palette.bg0, bg = palette.fg0},    
+        Pmenu      = {bg = palette.bg3},         
+        PmenuSbar  = {fg = palette.fg0},             
+        PmenuSel   = {fg = palette.bg0, bg = palette.fg0},    
         PmenuThumb = {fg = palette.fg0},            
 
         -- Search.
-        IncSearch = {fg = palette.bg0, bg = palette.pear},
+        IncSearch  = {fg = palette.bg0, bg = palette.pear},
         MatchParen = {bold = true, fg = palette.fg3},
-        Search = {fg = palette.bg0, bg = palette.teal},
-        WildMenu = {fg = palette.bg0, bg = palette.pear},
+        Search     = {fg = palette.bg0, bg = palette.teal},
+        WildMenu   = {fg = palette.bg0, bg = palette.pear},
 
         -- Folds.
-        Folded = {fg = palette.gray, bg = palette.bg3},
+        Folded     = {fg = palette.gray, bg = palette.bg3},
         FoldColumn = {bold = true, fg = palette.fg0, bg = palette.bg3},
 
         -- Diffs.
