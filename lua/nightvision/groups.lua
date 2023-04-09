@@ -119,36 +119,36 @@ function M.groups()
         FoldColumn = {bold = true, fg = palette.fg0, bg = palette.bg3},
 
         -- Diffs.
-        DiffAdd = {bold = true, fg = palette.lime, bg = palette.bg2},
+        DiffAdd    = {bold = true, fg = palette.lime, bg = palette.bg2},
         DiffChange = {bold = true, fg = palette.pear, bg = bg2},
         DiffDelete = {bold = true, fg = palette.drab, bg = bg2},
-        DiffText = {bold = true, fg = palette.fg0, bg = bg2},
+        DiffText   = {bold = true, fg = palette.fg0, bg = bg2},
 
         -- Spellcheckers.
-        SpellBad = {underline = true, sp = palette.pear},
-        SpellCap = {underline = true, sp = palette.lime},
+        SpellBad   = {underline = true, sp = palette.pear},
+        SpellCap   = {underline = true, sp = palette.lime},
         SpellLocal = {underline = true, sp = palette.lime},
-        SpellRare = {underline = true, sp = palette.lime},
+        SpellRare  = {underline = true, sp = palette.lime},
 
         -- Statuslines.
-        StatusLine = {fg = palette.fg0, bg = palette.bg3},
-        StatusLineNC = {fg = palette.fg0, bg = palette.bg0},
-        StatusLineTerm = {fg = palette.fg0, bg = palette.bg3},
+        StatusLine       = {fg = palette.fg0, bg = palette.bg3},
+        StatusLineNC     = {fg = palette.fg0, bg = palette.bg0},
+        StatusLineTerm   = {fg = palette.fg0, bg = palette.bg3},
         StatusLineTermNC = {fg = palette.fg0, bg = palette.bg0},
 
         -- Tablines.
-        TabLine = {fg = palette.fg0, bg = palette.bg1},
+        TabLine     = {fg = palette.fg0, bg = palette.bg1},
         TabLineFill = {fg = palette.fg0, bg = palette.bg2},
-        TabLineSel = {fg = palette.fg0, bg = palette.bg3},
+        TabLineSel  = {fg = palette.fg0, bg = palette.bg3},
 
         -- Miscellaneous. 
-        Conceal = {fg = palette.lime},
-        Directory = {fg = palette.teal},
-        NonText = {fg = palette.fg0},
-        Question = {fg = palette.aqua},
+        Conceal      = {fg = palette.lime},
+        Directory    = {fg = palette.teal},
+        NonText      = {fg = palette.fg0},
+        Question     = {fg = palette.aqua},
         QuickFixLine = {fg = palette.lime}, 
-        SpecialKey = {bold = true, fg = palette.teal},
-        Title = {fg = palette.pear}
+        SpecialKey   = {bold = true, fg = palette.teal},
+        Title        = {fg = palette.pear}
     }
     
     return groups
