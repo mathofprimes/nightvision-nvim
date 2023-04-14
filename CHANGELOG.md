@@ -8,12 +8,12 @@ project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
--
--
+- Support for terminal colors in nvim
 
-### Changed
+## [0.0.1] - 2022-04-14
 
--
--
+### Added
 
-[0.0.1] - -yyyy-mm-dd
+- Support for light and dark mode
+- Soft, medium, and dark contrast options
+- Ability to change the color of background in dark and light mode
